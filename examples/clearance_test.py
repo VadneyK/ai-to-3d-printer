@@ -26,7 +26,7 @@ for i, gap in enumerate(GAPS):
     hole = Cylinder(PEG_D / 2 + gap, STRIP_T * 3)
     strip -= Pos(x, 3, STRIP_T / 2) * hole
     # Engrave the gap value under each hole so you can read it after printing.
-    label = extrude(Text(f"{gap:.1f}", font_size=4.5), amount=0.6)
+    label = extrude(Text(f"{gap:.1f}", font_size=7), amount=0.6)
     strip -= Location((x, -7, STRIP_T - 0.6)) * label
 
 # Peg printed standing up, next to the strip.
