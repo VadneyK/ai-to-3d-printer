@@ -1,0 +1,10 @@
+# Allowlist: this folder also holds private project work that must never be shared.
+# Only the files below are tracked. Add a new public file here on purpose.
+/*
+!/.gitignore
+!/README.md
+!/GUIDE.md
+!/MAKERSPACE.md
+!/examples/
+/examples/*
+!/examples/clearance_test.py
